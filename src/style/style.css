@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: 'Quicksand',sans-serif;
+    background-image: url("../style/image/bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+  background-color: #B7C4CF;
+  display: flex;
+}
+
+.jumbotron {
+    padding: 60px;
+    background-image: url("../style/image/jumbotron1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    text-shadow: 2px 2px 5px black ;
+    font-weight: 700;
+  }
+
+.jumbotron span{
+  text-shadow: 2px 2px 5px black ;
+}
+
+.jumbotron h1{
+  font-weight: 700;
+}
+
+
+nav {
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+}
+
+img{
+  width: 30%;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.card-konten{
+  display: flex;
+
+}
+
+.img-konten{
+  display: inline-block;
+}
+
+.card-konten h2{
+  font-weight: 700;
+  display: flex;
+}
+
+.konten span{
+  font-weight: 700;
+}
+
+.card-konten-populer{
+  display: flex;
+}
+.card-konten-populer h3{
+  font-weight: 700;
+  display: flex;
+}
+
+.card-konten-populer span{
+  font-weight: 700; 
+}
+
+.card-body-populer h2{
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.movie-populer{
+  height: 51%;
+}
+
